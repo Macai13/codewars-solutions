@@ -1,4 +1,4 @@
-def x(number):    
-    return ("Even", "Odd")[number&1]
-
-print(x(23))
+def even_or_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    return "Odd"
