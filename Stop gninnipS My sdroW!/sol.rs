@@ -7,7 +7,6 @@ fn spin_words(words: &str) -> String {
     {
         if word.len() >= 5
         {
-            println!("{}", word);
             let temp_str = word.chars().rev().collect::<String>();
             retstr.push_str(&temp_str);
             retstr.push_str(" ");
